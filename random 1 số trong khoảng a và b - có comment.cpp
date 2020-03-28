@@ -1,5 +1,5 @@
 /* Chương trình random số
-   Nhập 2 số a và b (a < b),
+   Nhập 2 số a và b,
    Chương trình sẽ random 1 số trong khoảng a và b */
 
 #include <iostream>
