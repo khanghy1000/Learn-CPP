@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 	int a, b,random;
-	cout << "Chuong trinh random 1 so trong khoang a va b (a < b), a va b la" << endl << "Nhap a = "; cin >> a;
+	cout << "Chuong trinh se random 1 so trong khoang a va b; a, b la so nguyen" << endl << "Nhap a = "; cin >> a;
 	cout << "Nhap b = "; cin >> b;
 	srand(time(NULL)); // Random 1 số bằng thời gian
 	if (a < b) {
