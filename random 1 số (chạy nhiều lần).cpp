@@ -28,7 +28,7 @@ int main() {
 			random = rand() % (a - b + 1) + b; // Lấy giá trị random chia dư (a-b+1) rồi cộng b để có giá trị trong khoảng a và b (a>b)
 		}
 
-		cout << "So random la " << random << endl;
+		cout << "So random la " << random << endl << endl;
 		cout << "Ban co muon tiep tuc khong? " << endl;
 		cout << "1: Co" << endl << "2: Khong" << endl << "Chon: "; cin >> choose;
 
