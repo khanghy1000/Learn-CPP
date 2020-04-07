@@ -1,14 +1,14 @@
-#### Các kiến thức tóm tắt
+# Các kiến thức tóm tắt
 
-## Ép kiểu dữ liệu
+### Ép kiểu dữ liệu
 static_cast<kiểu dữ liệu>(biến)
 
-## Xoá dữ liệu trong stdin (input)
+### Xoá dữ liệu trong stdin (input)
 cin.ignore(INT64_MAX, '\n')
 
-### Cấu trúc rẽ nhánh
+## Cấu trúc rẽ nhánh
 
-## Cấu trúc if
+### Cấu trúc if
 
 if (biểu thức điều kiện)
 {
@@ -27,7 +27,7 @@ else
 	// do D
 }
 
-## Cấu trúc switch case
+### Cấu trúc switch case
 
 switch (<biến>) 
 {
@@ -45,16 +45,16 @@ default:
 
 > Cuối các lệnh của mỗi "case" phải có break để ngăn cách các case riêng biệt; nếu không có sẽ gây nên hiện tượng fall-through.
 
-### Cấu trúc vòng lặp
+## Cấu trúc vòng lặp
 
-## Vòng lặp while
+### Vòng lặp while
 
 while (biểu thức điều kiện)
 {
 	// Câu lệnh;
 }
 
-## Vòng lặp do-while
+### Vòng lặp do-while
 
 do
 {
