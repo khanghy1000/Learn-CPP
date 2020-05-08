@@ -1,0 +1,5 @@
+long long sumAB(int a, int b)
+{
+long long a1=a;
+return a1>b ? 0: (b-a1+1)*(a1+b)/2;
+}
