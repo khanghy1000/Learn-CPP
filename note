@@ -64,3 +64,15 @@ do
 > Điểm khác nhau giữa while và do-while:
 >> Một khi vòng lặp while được thực thi, biểu thức điều kiện trong while sẽ được đánh giá. Nếu biểu thức điều kiện cho giá trị đúng, các câu lệnh trong khối lệnh của vòng lặp while sẽ được thực thi và chương trình quay trở lại đánh giá biểu thức điều kiện trong while, ngược lại, nếu biểu thức điều kiện sai, chương trình thoát khỏi vòng lặp while.
 >> Các câu lệnh bên trong khối lệnh của cấu trúc do-while sẽ được thực thi ít nhất 1 lần. Sau khi thực thi các câu lệnh, vòng lặp do-while sẽ đánh giá biểu thức điều kiện. Nếu biểu thức điều kiện đúng, chương trình quay trở lại thực hiện khối công việc của vòng lặp do-while, ngược lại, nếu biểu thức điều kiện sai, chương trình thoát khỏi vòng lặp do-while.
+
+### Char sang int và ngược lại
+### Char sang int:
+string s = "10098";
+char ch = s[s.length()-1];
+int i = ch - '0';
+-> i = 8
+
+#### Int sang char:
+int i = 69;
+char ch = i + '0';
+-> ch = 69
